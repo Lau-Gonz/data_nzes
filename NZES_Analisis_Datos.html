@@ -15283,7 +15283,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div  class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -15303,6 +15303,28 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>C:\Users\lauravale.gonzalez\AppData\Local\Temp\ipykernel_17680\2466131254.py:6: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[&#39;Fecha&#39;] = pd.to_datetime(df[&#39;Fecha&#39;])
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -15677,15 +15699,17 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>
  Información sobre la columna:  Tipo de Tecnología
+Tipo de Tecnología
 SFV    179605
 H       12987
 O        4812
 I        2542
 B         274
-Name: Tipo de Tecnología, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  kms de Red Interconexión
+kms de Red Interconexión
 0       184778
 1        11136
 3646      1733
@@ -15697,10 +15721,11 @@ Name: Tipo de Tecnología, dtype: int64
 4          184
 225        183
 3647         1
-Name: kms de Red Interconexión, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Capacidad (kW)
+Capacidad (kW)
 0.86       19956
 0.53       10563
 1120.00     6744
@@ -15712,10 +15737,11 @@ Name: kms de Red Interconexión, dtype: int64
 59.00          3
 299.00         3
 110.00         3
-Name: Capacidad (kW), Length: 145, dtype: int64 
+Name: count, Length: 145, dtype: int64 
 
 
  Información sobre la columna:  Fecha
+Fecha
 1.640995e+09    6858
 1.646093e+09    6858
 1.643674e+09    6858
@@ -15727,10 +15753,11 @@ Name: Capacidad (kW), Length: 145, dtype: int64
 1.525219e+09       9
 1.523578e+09       9
 1.526083e+09       9
-Name: Fecha, Length: 1735, dtype: int64 
+Name: count, Length: 1735, dtype: int64 
 
 
  Información sobre la columna:  Horas de Servicio
+Horas de Servicio
 -2.208974e+09    111395
 -2.208902e+09     65373
 -2.208971e+09      8972
@@ -15742,10 +15769,11 @@ Name: Fecha, Length: 1735, dtype: int64
 -2.208951e+09         1
 -2.208929e+09         1
 -2.208944e+09         1
-Name: Horas de Servicio, Length: 236, dtype: int64 
+Name: count, Length: 236, dtype: int64 
 
 
  Información sobre la columna:  Energía Entregada (kWh)
+Energía Entregada (kWh)
 1.86        5208
 5.20        4557
 173.00      4073
@@ -15757,10 +15785,11 @@ Name: Horas de Servicio, Length: 236, dtype: int64
 12468.05       1
 12673.00       1
 46835.00       1
-Name: Energía Entregada (kWh), Length: 7512, dtype: int64 
+Name: count, Length: 7512, dtype: int64 
 
 
  Información sobre la columna:  Departamento
+Departamento
 95    109125
 23     21693
 97     12789
@@ -15778,10 +15807,11 @@ Name: Energía Entregada (kWh), Length: 7512, dtype: int64
 13      1817
 8        790
 85        57
-Name: Departamento, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Municipio
+Municipio
 95001    75405
 95025    24728
 23807    18960
@@ -15824,7 +15854,7 @@ Name: Departamento, dtype: int64
 52835       90
 13042       84
 85125       57
-Name: Municipio, dtype: int64 
+Name: count, dtype: int64 
 
 </pre>
 </div>
@@ -16563,17 +16593,20 @@ class="
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>
  Información sobre la columna:  Tipo de Tecnología
+Tipo de Tecnología
 SFV    179605
-Name: Tipo de Tecnología, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  kms de Red Interconexión
+kms de Red Interconexión
 0    170299
 1      9306
-Name: kms de Red Interconexión, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Capacidad (kW)
+Capacidad (kW)
 0.86       19956
 0.53       10563
 1120.00     6744
@@ -16585,10 +16618,11 @@ Name: kms de Red Interconexión, dtype: int64
 110.00         3
 299.00         3
 59.00          3
-Name: Capacidad (kW), Length: 134, dtype: int64 
+Name: count, Length: 134, dtype: int64 
 
 
  Información sobre la columna:  Fecha
+Fecha
 1.643674e+09    6856
 1.646093e+09    6856
 1.640995e+09    6856
@@ -16600,10 +16634,11 @@ Name: Capacidad (kW), Length: 134, dtype: int64
 1.500422e+09       5
 1.501200e+09       5
 1.501459e+09       5
-Name: Fecha, Length: 1735, dtype: int64 
+Name: count, Length: 1735, dtype: int64 
 
 
  Información sobre la columna:  Horas de Servicio
+Horas de Servicio
 -2.208974e+09    106097
 -2.208902e+09     57763
 -2.208931e+09      7273
@@ -16664,10 +16699,11 @@ Name: Fecha, Length: 1735, dtype: int64
 -2.208963e+09         1
 -2.208952e+09         1
 -2.208983e+09         1
-Name: Horas de Servicio, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Energía Entregada (kWh)
+Energía Entregada (kWh)
 1.86      5208
 5.20      4557
 173.00    4070
@@ -16679,10 +16715,11 @@ Name: Horas de Servicio, dtype: int64
 43.40        1
 92.10        1
 20.80        1
-Name: Energía Entregada (kWh), Length: 1836, dtype: int64 
+Name: count, Length: 1836, dtype: int64 
 
 
  Información sobre la columna:  Departamento
+Departamento
 95    109125
 23     21693
 97     12424
@@ -16698,10 +16735,11 @@ Name: Energía Entregada (kWh), Length: 1836, dtype: int64
 8        790
 52       272
 85        57
-Name: Departamento, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Municipio
+Municipio
 95001    75405
 95025    24728
 23807    18960
@@ -16733,7 +16771,7 @@ Name: Departamento, dtype: int64
 52835       90
 13042       84
 85125       57
-Name: Municipio, dtype: int64 
+Name: count, dtype: int64 
 
 </pre>
 </div>
@@ -17262,19 +17300,22 @@ class="
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>
  Información sobre la columna:  Tipo de Tecnología
+Tipo de Tecnología
 H    12987
-Name: Tipo de Tecnología, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  kms de Red Interconexión
+kms de Red Interconexión
 0     11892
 13      365
 33      365
 35      365
-Name: kms de Red Interconexión, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Capacidad (kW)
+Capacidad (kW)
 50.0      1523
 40.0      1523
 22.0      1523
@@ -17288,10 +17329,11 @@ Name: kms de Red Interconexión, dtype: int64
 2000.0     365
 13.0        31
 63.0        31
-Name: Capacidad (kW), dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Fecha
+Fecha
 1.607472e+09    18
 1.608682e+09    18
 1.608854e+09    18
@@ -17303,10 +17345,11 @@ Name: Capacidad (kW), dtype: int64
 1.520122e+09     1
 1.514765e+09     1
 1.645402e+09     1
-Name: Fecha, Length: 1612, dtype: int64 
+Name: count, Length: 1612, dtype: int64 
 
 
  Información sobre la columna:  Horas de Servicio
+Horas de Servicio
 -2.208971e+09    5366
 -2.208974e+09    5297
 -2.208902e+09     840
@@ -17318,10 +17361,11 @@ Name: Fecha, Length: 1612, dtype: int64
 -2.208934e+09       1
 -2.208958e+09       1
 -2.208926e+09       1
-Name: Horas de Servicio, Length: 148, dtype: int64 
+Name: count, Length: 148, dtype: int64 
 
 
  Información sobre la columna:  Energía Entregada (kWh)
+Energía Entregada (kWh)
 0.0        380
 73.0        96
 68.0        95
@@ -17333,22 +17377,24 @@ Name: Horas de Servicio, Length: 148, dtype: int64
 9230.0       1
 22814.0      1
 283.0        1
-Name: Energía Entregada (kWh), Length: 1241, dtype: int64 
+Name: count, Length: 1241, dtype: int64 
 
 
  Información sobre la columna:  Departamento
+Departamento
 19    10661
 27     1961
 97      365
-Name: Departamento, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Municipio
+Municipio
 19110    10661
 27495     1231
 27075      730
 97001      365
-Name: Municipio, dtype: int64 
+Name: count, dtype: int64 
 
 </pre>
 </div>
@@ -17875,11 +17921,13 @@ La mayoría de las variables tienen una distribución sesgada hacia la izquierda
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>
  Información sobre la columna:  Tipo de Tecnología
+Tipo de Tecnología
 O    4812
-Name: Tipo de Tecnología, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  kms de Red Interconexión
+kms de Red Interconexión
 0       2587
 175      653
 1        552
@@ -17887,18 +17935,20 @@ Name: Tipo de Tecnología, dtype: int64
 3646     196
 4        184
 225      183
-Name: kms de Red Interconexión, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Capacidad (kW)
+Capacidad (kW)
 0.0       2862
 125.0      368
 132.0      184
 3000.0     184
-Name: Capacidad (kW), dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Fecha
+Fecha
 1.506038e+09    9
 1.513901e+09    8
 1.555805e+09    6
@@ -17910,10 +17960,11 @@ Name: Capacidad (kW), dtype: int64
 1.589328e+09    1
 1.588550e+09    1
 1.506125e+09    1
-Name: Fecha, Length: 1061, dtype: int64 
+Name: count, Length: 1061, dtype: int64 
 
 
  Información sobre la columna:  Horas de Servicio
+Horas de Servicio
 -2.208902e+09    4095
 -2.208971e+09     555
 -2.208906e+09      19
@@ -17961,10 +18012,11 @@ Name: Fecha, Length: 1061, dtype: int64
 -2.208942e+09       1
 -2.208949e+09       1
 -2.208974e+09       1
-Name: Horas de Servicio, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Energía Entregada (kWh)
+Energía Entregada (kWh)
 0.00        128
 167.00       89
 107.00       84
@@ -17976,17 +18028,19 @@ Name: Horas de Servicio, dtype: int64
 32522.00      1
 27577.00      1
 50551.43      1
-Name: Energía Entregada (kWh), Length: 3478, dtype: int64 
+Name: count, Length: 3478, dtype: int64 
 
 
  Información sobre la columna:  Departamento
+Departamento
 52    2446
 19    1434
 99     932
-Name: Departamento, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Municipio
+Municipio
 19318    762
 99524    736
 19809    672
@@ -17995,7 +18049,7 @@ Name: Departamento, dtype: int64
 52696    653
 52490    457
 99001    196
-Name: Municipio, dtype: int64 
+Name: count, dtype: int64 
 
 </pre>
 </div>
@@ -18520,22 +18574,25 @@ Podría haber valores atípicos o outliers en las variables <em>kms de Red Inter
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>
  Información sobre la columna:  Tipo de Tecnología
+Tipo de Tecnología
 I    2542
-Name: Tipo de Tecnología, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  kms de Red Interconexión
+kms de Red Interconexión
 1       1278
 3646    1263
 3647       1
-Name: kms de Red Interconexión, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Capacidad (kW)
-Series([], Name: Capacidad (kW), dtype: int64) 
+Series([], Name: count, dtype: int64) 
 
 
  Información sobre la columna:  Fecha
+Fecha
 1.510013e+09    2
 1.586909e+09    2
 1.579738e+09    2
@@ -18547,10 +18604,11 @@ Series([], Name: Capacidad (kW), dtype: int64)
 1.567728e+09    1
 1.566173e+09    1
 1.502064e+09    1
-Name: Fecha, Length: 1552, dtype: int64 
+Name: count, Length: 1552, dtype: int64 
 
 
  Información sobre la columna:  Horas de Servicio
+Horas de Servicio
 -2.208902e+09    2401
 -2.208989e+09       9
 -2.208931e+09       6
@@ -18562,10 +18620,11 @@ Name: Fecha, Length: 1552, dtype: int64
 -2.208903e+09       1
 -2.208906e+09       1
 -2.208970e+09       1
-Name: Horas de Servicio, Length: 89, dtype: int64 
+Name: count, Length: 89, dtype: int64 
 
 
  Información sobre la columna:  Energía Entregada (kWh)
+Energía Entregada (kWh)
 0.00        160
 923.71       62
 960.81       62
@@ -18577,19 +18636,21 @@ Name: Horas de Servicio, Length: 89, dtype: int64
 52385.00      1
 67679.75      1
 62988.50      1
-Name: Energía Entregada (kWh), Length: 1111, dtype: int64 
+Name: count, Length: 1111, dtype: int64 
 
 
  Información sobre la columna:  Departamento
+Departamento
 86    1278
 99    1264
-Name: Departamento, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Municipio
+Municipio
 86573    1278
 99001    1264
-Name: Municipio, dtype: int64 
+Name: count, dtype: int64 
 
 </pre>
 </div>
@@ -19125,20 +19186,23 @@ class="
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>
  Información sobre la columna:  Tipo de Tecnología
+Tipo de Tecnología
 B    274
-Name: Tipo de Tecnología, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  kms de Red Interconexión
+kms de Red Interconexión
 3646    274
-Name: kms de Red Interconexión, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Capacidad (kW)
-Series([], Name: Capacidad (kW), dtype: int64) 
+Series([], Name: count, dtype: int64) 
 
 
  Información sobre la columna:  Fecha
+Fecha
 1.628554e+09    1
 1.625530e+09    1
 1.644883e+09    1
@@ -19150,15 +19214,17 @@ Series([], Name: Capacidad (kW), dtype: int64)
 1.628122e+09    1
 1.629331e+09    1
 1.645488e+09    1
-Name: Fecha, Length: 274, dtype: int64 
+Name: count, Length: 274, dtype: int64 
 
 
  Información sobre la columna:  Horas de Servicio
+Horas de Servicio
 -2.208902e+09    274
-Name: Horas de Servicio, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Energía Entregada (kWh)
+Energía Entregada (kWh)
 0.0        96
 27833.0     2
 61222.0     1
@@ -19170,17 +19236,19 @@ Name: Horas de Servicio, dtype: int64
 39074.0     1
 19076.0     1
 46835.0     1
-Name: Energía Entregada (kWh), Length: 178, dtype: int64 
+Name: count, Length: 178, dtype: int64 
 
 
  Información sobre la columna:  Departamento
+Departamento
 99    274
-Name: Departamento, dtype: int64 
+Name: count, dtype: int64 
 
 
  Información sobre la columna:  Municipio
+Municipio
 99001    274
-Name: Municipio, dtype: int64 
+Name: count, dtype: int64 
 
 </pre>
 </div>
