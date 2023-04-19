@@ -1,2 +1,6 @@
-# TRABAJO
-Hola
+# **Net-zero multi-energy systems.**
+
+La energía es uno de los principales recursos para los seres humanos. Por desgracia las formas de obtención y uso han causado un gran impacto ambiental, generando la necesidad de crear sistemas de energías sostenibles y de cero emisiones. Estos buscan reemplazar los métodos tradicionales, como lo son la solar fotovoltaica, hidráulica, eólica o biomasa. Por sus características, se suelen emplear para cubrir las necesidades energéticas de áreas rurales e independientes, pues son estas áreas las que tienen mayor dificultad para lograr acceder a las fuentes de energía tradicional.
+
+
+Este documento se enfoca en el análisis de la base de datos [Registros de Operación](https://www.datos.gov.co/Minas-y-Energ-a/Superservicios-Registro-De-Operaci-n-Diario-Otro-T/bsnu-ddmp). Por medio de la identificación de patrones, características y correlaciones según el área o los tipos de tecnología, se busca mejorar la toma de decisiones y la según el tipo de tecnología. Así se logra contribuir a la planeación y creación de sistemas energéticos de cero emisiones, con un modelo efectivo y eficiente, que representa la realidad en las áreas rurales e independientes.
